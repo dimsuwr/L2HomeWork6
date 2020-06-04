@@ -15,7 +15,8 @@ public class Client {
     private static boolean isRunning;
 
     public static void main(String[] args) {
-        System.out.println("Добро пожаловать в Чат!");
+        System.out.println("Добро пожаловать в Чат!\nДля ввода сообшения используйте клавиатуру!\nДля отправки сообжения используйте клавишу" +
+                "'ENTER'!\nДля выхода из чата введите сообщение'/end'!");
         try {
             connectToServer();
             closeConnection();
